@@ -1,0 +1,11 @@
+{
+  "arikeysredux.controls.title": "AriKeysRedux Controls",
+  "arikeysredux.aributton": "AriKeysRedux Controls",
+
+  "arikeysredux.modifier.left_shift": "LShift",
+  "arikeysredux.modifier.right_shift": "RShift",
+  "arikeysredux.modifier.left_alt": "LAlt",
+  "arikeysredux.modifier.right_alt": "RAlt",
+  "arikeysredux.modifier.left_ctrl": "LCtrl",
+  "arikeysredux.modifier.right_ctrl": "RCtrl"
+}

@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "arikeys",
+  "id": "arikeysredux",
   "version": "${version}",
-  "name": "AriKeys",
-  "description": "Allows the Minecraft client to send AriKey keypresses to the server.",
+  "name": "AriKeysRedux",
+  "description": "Allows the Minecraft client to send AriKeyRedux keypresses to the server.",
   "contact": {
-      "homepage": "https://github.com/ASangarin/AriKeys/wiki",
-      "issues": "https://github.com/ASangarin/AriKeys/issues",
-      "sources": "https://github.com/ASangarin/AriKeys"
+      "homepage": "https://github.com/NerfOscar/AriKeys-Redux/wiki",
+      "issues": "https://github.com/NerfOscar/AriKeys-Redux/issues",
+      "sources": "https://github.com/NerfOscar/AriKeys-Redux"
   },
-  "authors": ["ASangarin"],
+  "authors": ["ASangarin", "NerfOscar"],
   "license": "MIT",
-  "icon": "assets/arikeys/icon.png",
+  "icon": "assets/arikeysredux/icon.png",
   "environment": "client",
   "entrypoints": {
     "client": [
-      "eu.asangarin.arikeys.fabric.AriKeysFabric"
+      "org.nerfoscar.arikeysredux.fabric.AriKeysFabric"
     ]
   },
   "mixins": [
@@ -24,6 +24,6 @@
   ],
   "depends": {
     "fabric": "*",
-    "minecraft": ">=1.19.2"
+    "minecraft": ">=1.20.4"
   }
 }

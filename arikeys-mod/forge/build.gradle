@@ -9,8 +9,8 @@ architectury {
 
 loom {
     forge {
-        mixinConfig "arikeys-forge.mixins.json"
-        mixinConfig "arikeys.mixins.json"
+        mixinConfig "arikeysredux-forge.mixins.json"
+        mixinConfig "arikeysredux.mixins.json"
     }
 }
 
@@ -42,17 +42,17 @@ shadowJar {
     exclude "architectury.common.json"
 
     configurations = [project.configurations.shadowCommon]
-    classifier "dev-shadow"
+    archiveClassifier.set("dev-shadow")
 }
 
 remapJar {
-    input.set shadowJar.archiveFile
+    input = shadowJar.archiveFile.get().getAsFile()
     dependsOn shadowJar
-    classifier null
+    archiveClassifier.set(null)
 }
 
 jar {
-    classifier "dev"
+    archiveClassifier.set("dev")
 }
 
 sourcesJar {

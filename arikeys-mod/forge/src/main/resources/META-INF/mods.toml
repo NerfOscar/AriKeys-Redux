@@ -1,28 +1,28 @@
 modLoader = "javafml"
 loaderVersion = "[43,)"
-issueTrackerURL = "https://github.com/ASangarin/AriKeys/issues"
+issueTrackerURL = "https://github.com/NerfOscar/AriKeys-Redux/issues"
 license = "MIT"
 
 [[mods]]
-modId = "arikeys"
+modId = "arikeysredux"
 version = "${version}"
-displayName = "AriKeys"
-authors = "ASangarin"
+displayName = "AriKeysRedux"
+authors = "ASangarin, NerfOscar"
 description = '''
-Allows the Minecraft client to send AriKey keypresses to the server.
+Allows the Minecraft client to send AriKeyRedux keypresses to the server.
 '''
 logoFile = "icon.png"
 
-[[dependencies.arikeys]]
+[[dependencies.arikeysredux]]
 modId = "forge"
 mandatory = true
 versionRange = "[43,)"
 ordering = "NONE"
 side = "CLIENT"
 
-[[dependencies.arikeys]]
+[[dependencies.arikeysredux]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.19.2,)"
+versionRange = "[1.20.4,)"
 ordering = "NONE"
 side = "CLIENT"

@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "eu.asangarin.arikeys.mixin",
+  "package": "org.nerfoscar.arikeysredux.mixin",
   "compatibilityLevel": "JAVA_17",
   "client": [
     "AKKeyboardMixin",
