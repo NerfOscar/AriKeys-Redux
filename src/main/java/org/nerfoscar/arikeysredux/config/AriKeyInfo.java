@@ -95,24 +95,4 @@ public class AriKeyInfo {
 		if (!AriKeysReduxMain.get().mm) return;
 		MythicMobsCompat.runSkill(press ? mythicPress : mythicRelease, player);
 	}
-
-	public NamespacedKey getId() {
-		return id;
-	}
-
-	public int getDef() {
-		return def;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public String getCategory() {
-		return category;
-	}
-
-	public Set<ModifierKey> getModifiers() {
-		return modifiers;
-	}
 }

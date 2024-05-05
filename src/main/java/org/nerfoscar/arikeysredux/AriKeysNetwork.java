@@ -13,7 +13,6 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.entity.Player;
 
 import java.io.IOException;
-import java.nio.ByteBuffer;
 import java.nio.charset.StandardCharsets;
 import java.util.Set;
 

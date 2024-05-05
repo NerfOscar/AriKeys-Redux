@@ -3,15 +3,15 @@ version: '${version}'
 main: org.nerfoscar.arikeysredux.AriKeysReduxMain
 api-version: '1.20'
 authors: [ASangarin, NerfOscar]
-description: A fork of the mod which can send custom key presses to a spigot server
+description: A fork of the plugin and mod which can send custom key presses to a spigot server
 softdepend: [ PlaceholderAPI, MythicMobs ]
 commands:
-  arikeys:
-    description: The main command for AriKeys.
-    aliases: [ "ak", "keys" ]
-    permission: arikeys.admin
-    usage: "Usage: /arikeys [reload|info]"
+  arikeysredux:
+    description: The main command for AriKeysRedux.
+    aliases: [ "akr" ]
+    permission: arikeysredux.admin
+    usage: "Usage: /arikeysredux [reload|info]"
 permissions:
-  arikeys.admin:
+  arikeysredux.admin:
     description: The main permission for AriKeys.
     default: op

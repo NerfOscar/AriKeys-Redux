@@ -25,11 +25,11 @@ public class AriKeysCommand implements CommandExecutor, TabCompleter {
 		String cmd = args[0];
 		if (cmd.equals("reload")) {
 			AriKeysReduxMain.get().reload();
-			sender.sendMessage(ChatColor.AQUA + "[AriKeys] " + ChatColor.GREEN + "Plugin was successfully reloaded.");
+			sender.sendMessage(ChatColor.GREEN + "[AriKeysRedux] " + ChatColor.DARK_GREEN + "Plugin was successfully reloaded.");
 			return true;
 		}
 		if (cmd.equals("info")) {
-			sender.sendMessage(ChatColor.AQUA + "[AriKeys] " + ChatColor.GREEN + "Version 1.0");
+			sender.sendMessage(ChatColor.GREEN + "[AriKeysRedux] " + ChatColor.DARK_GREEN + "Version 2.0");
 			return true;
 		}
 

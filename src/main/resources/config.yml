@@ -1,7 +1,7 @@
-# AriKeysPlugin 2
-# Made by Aria Sangarin
+# AriKeysReduxPlugin
+# Made by Aria Sangarin, Ported by NerfOscar
 
-# Config Version 4
+# Config Version 5
 
 # Whether the event should be fired or not
 # if a command was configured for the key ID.
@@ -10,6 +10,7 @@ run_event_on_command: true
 # Input your desired keys here and the client mod
 # will automatically grab these from the server and
 # allow the player to use, see and customize them.
+# NOTE: The player has to rejoin the server to see the changes.
 Keys:
   example_key: # Purely for organization. Can be named anything.
     Id: "myserver:mycoolkey" # The namespace and path of the pressed key which is passed to the event
@@ -30,7 +31,7 @@ Keys:
     Category: "Example Category"
     DefaultKey: 77 # 77 is the M key
     Modifiers: [LEFT_SHIFT, LEFT_CTRL] # The keybindings that must also be held for this to work.
-    # See the wiki (https://github.com/ASangarin/AriKeys/wiki/Available-Modifiers) for available modifiers.
+    # See the wiki (https://github.com/NerfOscar/AriKeys-Redux/wiki) for the rest of modifiers.
     RunCommand: "!msg %player% You pressed another example key. Nice."
     # Putting a ! as the first letter of the command will make it run from console.
   minecraft_key: # This doesn't have to be named "minecraft_key", you can implement any name that you want.
@@ -38,4 +39,6 @@ Keys:
     # If you don't register a Minecraft keybind the AriKeys won't be able to listen to it.
     # You don't have to include Name, Category, Modifier or DefaultKey as those fields won't be used.
     # You can still implement a RunCommand and or Mythic Mobs skill. (SkillPress / SkillRelease)
-    # See the wiki (https://github.com/ASangarin/AriKeys/wiki/Minecraft-Keybinds) for all Minecraft keybinds.
+    # See the wiki (https://github.com/NerfOscar/AriKeys-Redux/wiki) for all Minecraft keybinds.
+
+# End of config.

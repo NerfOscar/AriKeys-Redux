@@ -9,6 +9,7 @@ import org.bukkit.configuration.file.FileConfiguration;
 import java.util.HashMap;
 import java.util.Map;
 
+
 @Getter
 public class AriKeysConfig {
 	private final Map<NamespacedKey, AriKeyInfo> keyInfoList = new HashMap<>();
@@ -44,11 +45,4 @@ public class AriKeysConfig {
 		AriKeysReduxMain.get().getLogger().severe("Unable to add MythicKey: '" + name + "' - Check your syntax!");
 	}
 
-	public Map<NamespacedKey, AriKeyInfo> getKeyInfoList() {
-		return keyInfoList;
-	}
-
-	public boolean isEventOnCommand() {
-		return eventOnCommand;
-	}
 }

@@ -26,7 +26,4 @@ public enum ModifierKey {
         };
     }
 
-    public int getId() {
-        return id;
-    }
 }

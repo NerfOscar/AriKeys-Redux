@@ -27,7 +27,7 @@ public final class AriKeysReduxMain extends JavaPlugin {
 
         // Set up command
         AriKeysCommand cmd = new AriKeysCommand();
-        PluginCommand command = getCommand("arikeys");
+        PluginCommand command = getCommand("arikeysredux");
         if (command != null) {
             command.setExecutor(cmd);
             command.setTabCompleter(cmd);
@@ -58,7 +58,4 @@ public final class AriKeysReduxMain extends JavaPlugin {
         return plugin;
     }
 
-    public AriKeysConfig getConf() {
-        return conf;
-    }
 }
