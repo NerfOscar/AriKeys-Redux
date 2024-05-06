@@ -21,7 +21,7 @@ import org.lwjgl.glfw.GLFW;
 public class AriKeysButton implements Drawable, Element, Selectable {
 	public static final Identifier WIDGETS_TEXTURE = new Identifier("arikeysredux", "textures/gui/arikeys_button.png");
 	@Getter
-	private final Text message = Text.translatable("arikeys.aributton");
+	private final Text message = Text.translatable("arikeysredux.aributton");
 	public int x;
 	public int y;
 	protected boolean hovered;

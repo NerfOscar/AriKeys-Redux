@@ -23,7 +23,7 @@ public class AriKeysOptions extends GameOptionsScreen {
 	private ButtonWidget resetButton;
 
 	public AriKeysOptions(Screen parent, GameOptions options) {
-		super(parent, options, Text.translatable("arikeys.controls.title"));
+		super(parent, options, Text.translatable("arikeysredux.controls.title"));
 	}
 
 	protected void init() {
